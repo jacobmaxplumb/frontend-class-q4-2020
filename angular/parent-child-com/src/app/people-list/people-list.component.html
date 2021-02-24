@@ -1,0 +1,8 @@
+<!-- <app-person *ngFor="let p of people; let i = index" [person]="p"></app-person> -->
+
+<!-- same as this below -->
+<!-- <app-person [person]="people[0]"></app-person>
+<app-person [person]="people[1]"></app-person>
+<app-person [person]="people[2]"></app-person> -->
+
+<app-person [person]="person" (personChanged)="changePerson($event)"></app-person>

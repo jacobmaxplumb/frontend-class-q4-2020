@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .title {
+            height: 50px;
+            background-color: grey;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        #menu {
+            position: absolute;
+            border: 1px solid black;
+            background-color: white;
+            top: 50px;
+            width: 50px;
+        }
+        
+        i {
+            padding-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <i id="menu-button" class="fas fa-bars" onclick="toggleMenuItems(event)"></i>
+        <div id="menu" class="hide">
+            <a id="letters" href="https://google.com" onclick="lettersClicked(event)">Letters</a>
+            <a id="numbers" href="#" onclick="numbersClicked(event)">Numbers</a>
+        </div>
+    </div>
+    <div class="body">
+        <div id="shownLetters">alskdfjlkasjdflkjaslkdf</div>
+        <div id="shownNumbers" class="hide">1278468723648762374</div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/8e689803fb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

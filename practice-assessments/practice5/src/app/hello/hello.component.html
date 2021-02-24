@@ -1,0 +1,6 @@
+Hello {{name}}
+
+<form #nameForm="ngForm" (submit)="nameSubmitted(nameForm.value)">
+    <input name="enteredName" ngModel>
+    <button>Submit</button>
+</form>

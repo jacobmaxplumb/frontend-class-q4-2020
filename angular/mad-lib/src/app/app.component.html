@@ -1,0 +1,11 @@
+Adverb: <input [(ngModel)]="adVerb">
+Noun: <input [(ngModel)]="noun">
+<button (click)="formSubmitted()">Submit</button>
+<div *ngIf="isSubmitted">
+  Angular is {{adVerb}} fun! It is built using the {{noun}} design pattern.
+</div>
+<ul>
+  <li *ngFor="let x of myNumbers; let i = index">
+    {{i + 1}}. {{x}}
+  </li>
+</ul>

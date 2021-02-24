@@ -1,0 +1,10 @@
+<div *ngFor="let item of items">
+    id: {{item.id}}, product: {{item.product}}, price: {{item.price}}, quantity: {{item.quantity}} <span (click)="deleteItem(item.id)">X</span>
+</div>
+
+<form #productForm="ngForm" (submit)="addProduct(productForm.value)">
+    product: <input name="product" ngModel />
+    price: <input type='number' name="price" ngModel />
+    quantity: <input type='number' name="quantity" ngModel />
+    <button>Submit</button>
+</form>

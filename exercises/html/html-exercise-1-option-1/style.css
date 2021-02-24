@@ -1,0 +1,50 @@
+.login-page {
+    width: 360px;
+    padding: 15% 0 0;
+    margin: auto;
+}
+
+.form {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
+}
+
+.form input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+p em {
+    color: #C8C4C2;
+}
+
+.form button {
+    text-transform: uppercase;
+    background-color: #3598DB;
+    width: 100%;
+    padding: 15px;
+    outline: 0;
+    border: none;
+    color: #FFFFFF;
+}
+
+.form .message {
+    color: #C8C4C2;
+    font-size: 12px;
+}
+
+.forgot {
+    font-size: 80%;
+    transform: translate(110px, -50px);
+    color: gray;
+    cursor: pointer;
+}
+
+body {
+    background-color: #DCEAF0;
+}

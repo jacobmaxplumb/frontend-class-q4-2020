@@ -1,0 +1,15 @@
+<button [class]="isDark ? 'dark' : 'light'" (click)="isDark = !isDark">Submit</button>
+<form #calcForm="ngForm" (submit)="calcSumbitted(calcForm.value)">
+    <input name="number1" ngModel />
+    <input name="number2" ngModel />
+    <button>Submit</button>
+</form>
+
+<p>{{total}}</p>
+<p *ngIf="total < 0">Negative</p>
+<p *ngIf="total > 0">Positive</p>
+<p *ngIf="total === 0">Zero</p>
+
+<ol>
+    <li *ngFor="let name of names" [class]="name.checked ? 'checked': ''" (click)="name.checked = !name.checked">{{name.text}}</li>
+</ol>

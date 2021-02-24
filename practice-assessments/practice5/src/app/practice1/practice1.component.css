@@ -1,0 +1,11 @@
+.dark {
+    background-color: #111;
+}
+
+.light {
+    background-color: #eee;
+}
+
+.checked {
+    color: grey;
+}

@@ -1,0 +1,41 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.class-1 {
+    background-color: white;
+}
+
+.no-padding {
+    margin: 0;
+}
+
+.my-container {
+    font-size: 30px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px #888888;
+    ;
+}
+
+.my-child {
+    font-size: 2rem;
+}
+
+h2 {
+    color: green;
+}
+
+.title {
+    color: green;
+    background-color: rgba(255, 0, 187, 0.1);
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: line-through;
+    width: 50%;
+    height: 200px;
+}
+
+#title1 {
+    color: yellow;
+}

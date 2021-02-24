@@ -1,0 +1,57 @@
+/* * {
+    border: 0.5px solid black;
+} */
+
+body {
+    height: 200vh;
+    font-family: 'Commissioner', sans-serif;
+}
+
+div {
+    border: 1px solid black;
+    width: 50px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: ease-in 5s;
+}
+
+
+/* div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+
+header {
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+}
+
+p {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    right: 0;
+}
+
+img {
+    bottom: 0;
+} */
+
+
+/* .parent {
+    height: 500px;
+}
+
+.child {
+    display: block;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+} */

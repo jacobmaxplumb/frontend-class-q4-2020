@@ -1,0 +1,12 @@
+<input type="text" #city />
+<button (click)="searchCity(city.value)">Submit</button>
+
+<button routerLink="/other" routerLinkActive="active">Other</button>
+
+<ul>
+    <li>City: {{weather.city}}</li>
+    <li>Temp: {{weather.temp}}</li>
+    <li>Main: {{weather.main}}</li>
+    <li>Description: {{weather.description}}</li>
+    <li>Wind Speed: {{weather.windSpeed}} mph</li>
+</ul>
